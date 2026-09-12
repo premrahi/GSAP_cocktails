@@ -21,7 +21,7 @@ const About = () => {
       stagger: 0.06,
     })
     .from('.top-grid , .bottom-grid' ,{
-        opacity:0 , duration:1 , ease:'expo.out' , stagger:0.06
+        opacity:0 , duration:0.3 , ease:'expo.out' , stagger:0.06
     } , '-=0.5')
   }, []);
 
